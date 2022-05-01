@@ -1,0 +1,23 @@
+.rat_card {
+    padding: 10px;
+    margin: 15px;
+    background-color: #0C0C0C;
+    color: #a4a4a4;
+}
+
+.rat_card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.rat_info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+}
+
+.cart_info {
+    padding-left: 40px;
+}

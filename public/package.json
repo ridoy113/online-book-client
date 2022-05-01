@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Lazarus",
+        "supplier": "Tuxell",
+        "img": "https://i.ibb.co/cg55xFk/images-6.jpg",
+        "description": "This study was a preliminary study of high school student",
+        "quantity": "1010",
+        "price": "114"
+    },
+    {
+        "id": 2,
+        "name": "Shoshana",
+        "supplier": "Staves",
+        "img": "https://i.ibb.co/3WGfSKp/images-7.jpg",
+        "description": "Evidence from industrialized countries suggests that c,",
+        "quantity": "422",
+        "price": "176"
+    },
+    {
+        "id": 3,
+        "name": "Horton",
+        "supplier": "Signe",
+        "img": "https://i.ibb.co/TYL3Hmz/images-8.jpg",
+        "description": "Policies of privatisation should be considered as respo",
+        "quantity": "1923",
+        "price": "115"
+    },
+    {
+        "id": 4,
+        "name": "Nichol",
+        "supplier": "Elcoux",
+        "img": "https://i.ibb.co/hgx6HmN/images-9.jpg",
+        "description": "Our typology is built on three dimensions: internality,ghfg gggg",
+        "quantity": "1880",
+        "price": "157"
+    },
+    {
+        "id": 5,
+        "name": "Raquela",
+        "supplier": "Eschelle",
+        "img": "https://i.ibb.co/nsSD8N4/images-10.jpg",
+        "description": "The definition that you provide will often be specific to.",
+        "quantity": "9230",
+        "price": "189"
+    },
+    {
+        "id": 6,
+        "name": "Ethelin",
+        "supplier": "Buckett",
+        "img": "https://i.ibb.co/gt83Nph/jacket.jpg",
+        "description": "The definition paragraph does exactly what you would expect",
+        "quantity": "2339",
+        "price": "283"
+    }
+]

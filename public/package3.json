@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Cariotta",
+        "img": "https://i.ibb.co/BjQJzJN/images-2.jpg",
+        "rat": "2",
+        "fellings": "BAD"
+    },
+    {
+        "id": 2,
+        "name": "Chastity",
+        "img": "https://i.ibb.co/wMsw4jY/images-1.jpg",
+        "rat": "5",
+        "fellings": "XOSS"
+    },
+    {
+        "id": 3,
+        "name": "Philippine",
+        "img": "https://i.ibb.co/h289Gzr/download.jpg",
+        "rat": "5",
+        "fellings": "JOSS"
+    },
+    {
+        "id": 4,
+        "name": "Selle",
+        "img": "https://i.ibb.co/y0ddC5C/download-2.jpg",
+        "rat": "5",
+        "fellings": "LOVE IT"
+    },
+    {
+        "id": 5,
+        "name": "Kriste",
+        "img": "https://i.ibb.co/ZYxjXbB/download-1.jpg",
+        "rat": "3",
+        "fellings": "NOT GOOD"
+    },
+    {
+        "id": 6,
+        "name": "Elfrieda",
+        "img": "https://i.ibb.co/qNJVdpy/images-3.jpg",
+        "rat": "4",
+        "fellings": "IMPRACIVE"
+    },
+    {
+        "id": 7,
+        "name": "Eleanor",
+        "img": "https://i.ibb.co/487SSRM/images.jpg",
+        "rat": "5",
+        "fellings": "VERY NICE"
+    },
+    {
+        "id": 8,
+        "name": "Redd",
+        "img": "https://i.ibb.co/fxCMx0x/Scarlet-Witch-min.jpg",
+        "rat": "5",
+        "fellings": "GOOD"
+    },
+    {
+        "id": 9,
+        "name": "Travers",
+        "img": "https://i.ibb.co/b6ZLyMw/standard-xlarge.jpg",
+        "rat": "5",
+        "fellings": "WOW"
+    }
+]

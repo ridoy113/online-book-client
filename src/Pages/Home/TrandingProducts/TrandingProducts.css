@@ -1,0 +1,22 @@
+.tranding_tital {
+    text-align: center;
+    color: #f30f0f;
+    padding-top: 20px;
+    font-style: oblique;
+}
+
+.container_tdr {
+    width: 100%;
+    height: 1250px;
+    background-image: url("../../../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.service_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
