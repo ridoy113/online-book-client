@@ -13,7 +13,7 @@ const TrandingProducts = () => {
     }, [])
 
     return (
-        <div className='container_tdr'>
+        <div id="tranding" className='container_tdr'>
             <h1 className='tranding_tital '>Tranding Books Of This Time</h1>
             <div className='service_container'>
                 {

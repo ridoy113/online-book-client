@@ -15,7 +15,8 @@
 
 .rat_taitle {
     text-align: center;
-    color: #f30f0f;
+    color: white;
     padding-top: 20px;
     font-style: oblique;
+    text-shadow: 2px 2px 5px red;
 }

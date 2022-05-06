@@ -12,8 +12,8 @@ const Ratings = () => {
     }, [])
 
     return (
-        <div className='ratings_parents'>
-            <h2 className='rat_taitle'>Customar Response</h2>
+        <div id="review" className='ratings_parents'>
+            <h1 className='rat_taitle'>Customar Response</h1>
             <div className='ratings'>
                 {
                     ratings.map(rating => <Rating

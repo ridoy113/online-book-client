@@ -1,9 +1,16 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import './TrandingProduct.css'
 
 const TrandingProduct = ({ trandingProduct }) => {
 
-    const { name, supplier, img, description, quantity, price } = trandingProduct;
+    const { id, name, supplier, img, description, quantity, price } = trandingProduct;
+    const navigate = useNavigate();
+
+    const navigateToDetail = id => {
+        navigate(`/tanding/${id}`)
+    }
 
     return (
         <div className='product_card'>
@@ -13,7 +20,7 @@ const TrandingProduct = ({ trandingProduct }) => {
             <p><small>{description}</small></p>
             <p>Quantity: {quantity}pic.</p>
             <h5>Supplier: {supplier}</h5>
-            <button className='button-1'>UPDATE</button>
+            <Button onClick={() => navigateToDetail(id)} className='button-1'>UPDATE</Button>
         </div>
     );
 };
