@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './TrandingProduct.css'
 
 const TrandingProduct = ({ trandingProduct }) => {
@@ -20,7 +20,9 @@ const TrandingProduct = ({ trandingProduct }) => {
             <p><small>{description}</small></p>
             <p>Quantity: {quantity}pic.</p>
             <h5>Supplier: {supplier}</h5>
+
             <Button onClick={() => navigateToDetail(id)} className='button-1'>UPDATE</Button>
+
         </div>
     );
 };
