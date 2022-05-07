@@ -5,11 +5,11 @@ import './TrandingProduct.css'
 
 const TrandingProduct = ({ trandingProduct }) => {
 
-    const { id, name, supplier, img, description, quantity, price } = trandingProduct;
+    const { _id, name, supplier, img, description, quantity, price } = trandingProduct;
     const navigate = useNavigate();
 
     const navigateToDetail = id => {
-        navigate(`/tanding/${id}`)
+        navigate(`/trandingProduct/${id}`)
     }
 
     return (
@@ -21,7 +21,7 @@ const TrandingProduct = ({ trandingProduct }) => {
             <p>Quantity: {quantity}pic.</p>
             <h5>Supplier: {supplier}</h5>
 
-            <Button onClick={() => navigateToDetail(id)} className='button-1'>UPDATE</Button>
+            <Button onClick={() => navigateToDetail(_id)} className='button-1'>UPDATE</Button>
 
         </div>
     );

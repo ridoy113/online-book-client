@@ -5,10 +5,11 @@ import './TrandingProducts.css'
 
 const TrandingProducts = () => {
     const navigate = useNavigate();
+    
     const [trandingProducts, setTrandingProducts] = useState([]);
 
     useEffect(() => {
-        fetch('package.json')
+        fetch('http://localhost:5000/trandingProduct')
             .then(res => res.json())
             .then(data => setTrandingProducts(data))
     }, [])
@@ -23,7 +24,7 @@ const TrandingProducts = () => {
             <div className='service_container'>
                 {
                     trandingProducts.map(trandingProduct => <TrandingProduct
-                        key={trandingProduct.id}
+                        key={trandingProduct._id}
                         trandingProduct={trandingProduct}
                     >
                     </TrandingProduct>)
