@@ -40,7 +40,7 @@ function App() {
 
         <Route path='/manageTrandingProducts' element={
           <RequirreAuth>
-           <ManageTrandingProducts></ManageTrandingProducts>
+            <ManageTrandingProducts></ManageTrandingProducts>
           </RequirreAuth>
         }></Route>
 
