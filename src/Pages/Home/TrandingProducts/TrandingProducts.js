@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import TrandingProduct from '../TrandingProduct/TrandingProduct';
 import './TrandingProducts.css'
 
 const TrandingProducts = () => {
-
+    const navigate = useNavigate();
     const [trandingProducts, setTrandingProducts] = useState([]);
 
     useEffect(() => {
@@ -11,6 +12,10 @@ const TrandingProducts = () => {
             .then(res => res.json())
             .then(data => setTrandingProducts(data))
     }, [])
+
+    const navigateManage = event => {
+        navigate('/manage')
+    }
 
     return (
         <div id="tranding" className='container_tdr'>
@@ -23,6 +28,9 @@ const TrandingProducts = () => {
                     >
                     </TrandingProduct>)
                 }
+            </div>
+            <div className='container btn w-50 d-block mx-auto'>
+                <button onClick={navigateManage} className='manage_btn'>MANAGE - INVENTORIES</button>
             </div>
         </div>
     );

@@ -1,0 +1,40 @@
+.book_cart {
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background-color: #0C0C0C;
+    color: white;
+    border-radius: 10px;
+}
+
+.book_cart img {
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.book_info {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.book_btn {
+    height: 40px;
+    width: 170px;
+    margin-top: 7px;
+    border-radius: 7px;
+    padding: 5px;
+    border: none;
+    background-color: #fa0000;
+    color: white;
+    font-size: large;
+    font-style: initial;
+}
+
+.book_btn:hover {
+    background: none;
+    color: #fa0000;
+    border: 2px solid #fa0000;
+
+}

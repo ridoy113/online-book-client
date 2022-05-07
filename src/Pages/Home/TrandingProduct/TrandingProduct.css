@@ -2,20 +2,20 @@
     padding: 20px;
     text-align: center;
     margin: 10px;
-    color: #a4a4a4;
-    background-color: #0C0C0C;
+    color: white;
+    background-color: black;
 }
 
 .product_card img {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     border-radius: 2px;
 }
 
-.product_card:hover {
-    background: black;
+/* .product_card:hover {
+    background: black ,#0C0C0C;
 
-}
+} */
 
 .button-1 {
     height: 40px;

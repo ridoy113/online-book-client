@@ -1,0 +1,19 @@
+.books_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.allbooks_container {
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+.books_title {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px red;
+}
