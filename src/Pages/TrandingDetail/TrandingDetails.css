@@ -1,0 +1,12 @@
+.book-info {
+    text-align: center;
+    padding: 90px;
+    color: aliceblue;
+    background-color: black;
+
+}
+
+.book-info img {
+    height: 300px;
+    width: 250px;
+}

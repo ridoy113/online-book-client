@@ -20,12 +20,17 @@ const ManageTrandingProducts = () => {
         }
     }
     return (
-        <div>
-            <h2>Manage My All Tranding Books</h2>
+        <div className='text-center p-5'>
+            <h2 className='tranding_tital'>Manage My All Tranding Books</h2>
             {
                 trandingProducts.map(trandingProduct => <div key={trandingProduct._id}>
-                    <h4>{trandingProduct.name}</h4>
-                    <button onClick={() => handleDelete(trandingProduct._id)}>Delete From Home</button>
+                    <div className='py-4'>
+                        <h3>Name: {trandingProduct.name}</h3>
+                        <p>{trandingProduct.description}</p>
+                        <h6>Price: {trandingProduct.price}</h6>
+
+                        <button className='btn btn-danger' onClick={() => handleDelete(trandingProduct._id)}>Delete From Home</button>
+                    </div>
                 </div>)
             }
         </div >

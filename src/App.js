@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import AddTrandingProduct from './Pages/AddTrandingProduct/AddTrandingProduct';
 import Blogs from './Pages/Home/Blogs/Blogs';
@@ -9,6 +10,7 @@ import Register from './Pages/Login/Register/Register';
 import RequirreAuth from './Pages/Login/RequireAuth/RequirreAuth';
 import ManageTrandingProducts from './Pages/ManageTrandingProducts/ManageTrandingProducts';
 import Order from './Pages/Order/Order';
+import OrderHistory from './Pages/OrderHistory/OrderHistory';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
@@ -43,11 +45,18 @@ function App() {
             <ManageTrandingProducts></ManageTrandingProducts>
           </RequirreAuth>
         }></Route>
+        
+        <Route path='/orderHistory' element={
+          <RequirreAuth>
+            <OrderHistory></OrderHistory>
+          </RequirreAuth>
+        }></Route>
 
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }

@@ -27,6 +27,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
+                        <Nav.Link href='home#home'>Home</Nav.Link>
                         <Nav.Link href="home#tranding">Tranding</Nav.Link>
                         <Nav.Link href="home#review">Review</Nav.Link>
                     </Nav>
@@ -35,7 +36,9 @@ const Header = () => {
                         {
                             user && <>
                                 <Nav.Link as={Link} to="/addTrandingProduct">Add</Nav.Link>
+                                <Nav.Link as={Link} to="/orderHistory">My Items</Nav.Link>
                                 <Nav.Link as={Link} to="/manageTrandingProducts">Manage</Nav.Link>
+
                             </>
                         }
                         {

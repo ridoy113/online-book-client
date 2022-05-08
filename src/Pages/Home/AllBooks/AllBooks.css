@@ -17,3 +17,9 @@
     font-style: oblique;
     text-shadow: 2px 2px 5px red;
 }
+
+@media only screen and (max-width: 600px) {
+    .books_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

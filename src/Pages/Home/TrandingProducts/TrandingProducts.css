@@ -41,3 +41,12 @@
     border: 3px solid #fa0000;
     background: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .service_container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+}

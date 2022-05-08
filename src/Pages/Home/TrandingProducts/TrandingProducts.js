@@ -5,7 +5,7 @@ import './TrandingProducts.css'
 
 const TrandingProducts = () => {
     const navigate = useNavigate();
-    
+
     const [trandingProducts, setTrandingProducts] = useState([]);
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const TrandingProducts = () => {
     return (
         <div id="tranding" className='container_tdr'>
             <h1 className='tranding_tital '>Tranding Books Of This Time</h1>
-            <div className='service_container'>
+            <div className='service_container '>
                 {
                     trandingProducts.map(trandingProduct => <TrandingProduct
                         key={trandingProduct._id}
