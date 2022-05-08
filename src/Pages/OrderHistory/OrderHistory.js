@@ -13,7 +13,7 @@ const OrderHistory = () => {
 
         const getOrderHistory = async () => {
             const email = user.email;
-            const url = `http://localhost:5000/myItem?email=${email}`;
+            const url = `https://cryptic-hollows-38754.herokuapp.com/myItem?email=${email}`;
             try {
                 const { data } = await axiosPrivate.get(url);
                 setOrderHistory(data);

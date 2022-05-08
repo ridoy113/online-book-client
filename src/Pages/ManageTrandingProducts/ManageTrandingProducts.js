@@ -7,7 +7,7 @@ const ManageTrandingProducts = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are You Sure');
         if (proceed) {
-            const url = `http://localhost:5000/trandingProduct/${id}`;
+            const url = `https://cryptic-hollows-38754.herokuapp.com/trandingProduct/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

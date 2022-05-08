@@ -4,7 +4,7 @@ const useTrandingProducts = () => {
     const [trandingProducts, setTrandingProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/trandingProduct')
+        fetch('https://cryptic-hollows-38754.herokuapp.com/trandingProduct')
             .then(res => res.json())
             .then(data => setTrandingProducts(data))
     }, []);

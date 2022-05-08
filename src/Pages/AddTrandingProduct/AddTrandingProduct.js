@@ -7,7 +7,7 @@ const AddTrandingProduct = () => {
 
     const onSubmit = data => {
         console.log(data)
-        const url = `http://localhost:5000/trandingProduct`;
+        const url = `https://cryptic-hollows-38754.herokuapp.com/trandingProduct`;
         fetch(url, {
             method: 'POST',
             headers: {
