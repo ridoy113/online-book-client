@@ -26,7 +26,7 @@ function App() {
         <Route path='/manage' element={<Manage></Manage>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/order' element={
+        <Route path='/order/:trandingId' element={
           <RequirreAuth>
             <Order></Order>
           </RequirreAuth>
